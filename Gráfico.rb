@@ -13,7 +13,10 @@
 # 1 2 3 4 5 6 7 8 9 10
 
 def chart (arr)
+    #Se obtiene el largo del array
     n = arr.count
+
+    #ciclos para recorres el array e imprimir * por el valor dentro del array
     n.times do |i|
         print "|"
         arr[i].times do |j|
@@ -22,8 +25,10 @@ def chart (arr)
         print "\n"
     end
 
+    #Se obtiene el maximo del array
     maximo = arr.max
 
+    #SE imprimen las ultimas lineas
     print ">"
     maximo.times do |m|
         print "--"
