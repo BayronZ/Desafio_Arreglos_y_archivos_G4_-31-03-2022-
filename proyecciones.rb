@@ -61,3 +61,4 @@ total_segundo_s = (suma_6_meses2 + segunda_mitad)
 total_semestres.push(total_segundo_s)
 
 File.write("Resultados.data",total_semestres.join("\n"))
+
