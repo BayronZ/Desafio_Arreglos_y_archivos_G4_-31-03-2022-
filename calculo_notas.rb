@@ -34,12 +34,7 @@ end
 
 def nota_mas_alta(arr)
     #Se cambian los nombres por numeros 0
-    n = arr.count
-    n.times do |i|
-        if arr[i] == arr[0]
-            arr[i] == 0
-        end
-    end
+    arr[0] = 0
 
     #Se cambia todo a enteros
     arr2 = arr.map do |j|
