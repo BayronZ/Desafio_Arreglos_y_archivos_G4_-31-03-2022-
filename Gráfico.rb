@@ -28,14 +28,14 @@ def chart (arr)
     #Se obtiene el maximo del array
     maximo = arr.max
 
-    #SE imprimen las ultimas lineas
+    #Se imprimen las ultimas lineas
     print ">"
     maximo.times do |m|
         print "--"
     end
     print "\n"
 
-    
+    #Se imprimen los números de la base
     maximo.times do |c|
         print "#{c+1} "
     end
